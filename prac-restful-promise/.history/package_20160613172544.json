@@ -1,0 +1,6 @@
+{
+    "name": "wine-celler",
+    "description": "restful api 연습",
+    "version": "0.0.1",
+    "private": true
+}
