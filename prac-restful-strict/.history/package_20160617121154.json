@@ -1,0 +1,10 @@
+{
+  "name": "fruit!",
+  "description": "restful api 연습",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4",
+    "mysql": "^2.11.1"
+  }
+}

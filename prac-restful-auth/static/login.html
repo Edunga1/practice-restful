@@ -1,0 +1,15 @@
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="./login.js"></script>
+
+<div ng-app="loginApp" ng-controller="loginCtrl">
+    <div ng-if="true">
+        <form action="http://localhost:3000/login" method="POST" ng-submit="submit($event)">
+            <input type="text" placeholder="ID" name="id">
+            <input type="password" placeholder="PW" name="pw">
+            <input type="submit" value="login">
+        </form>
+        <form action="http://localhost:3000/logout" method="POST" ng-submit="submit($event)">
+            <input type="submit" value="logout">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="./login.js"></script>
+
+<div ng-app="loginApp" ng-controller="loginCtrl">
+    <form>
+        <input type="text" placeholder="ID" ng-model="uid">
+        <input type="password" placeholder="PW" ng-model="upw">
+        <input type="submit" value="login">
+    </form>
+    ID : {{uid}}<br>
+    PW : {{upw}}
+</div>
